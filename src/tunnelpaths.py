@@ -1,0 +1,20 @@
+tunnel_paths = {
+    'Student Union': ['Knox Hall', 'Lockwood Memorial Library', 'Bell Hall'],
+    'Knox Hall': ['Student Union', 'Capen Hall', 'Norton Hall'],
+    'Norton Hall': ['Knox Hall', 'Capen Hall'],
+    'Talbert Hall': ['Capen Hall', 'Cooke Hall', 'Fronczak Hall'],
+    'Natural Sciences Complex': ['Talbert Hall', 'Cooke Hall', 'Fronczak Hall'],
+    'Cooke Hall': ['Natural Sciences Complex', 'Hochstetter Hall', 'Talbert Hall'],
+    'Hochstetter Hall': ['Cooke Hall'],
+    'Fronczak Hall': ['Natural Sciences Complex', 'Talbert Hall'],
+    'Lockwood Memorial Library': ['Student Union', 'Baldy Hall', 'Clemens Hall' ,'OBrian Hall'],
+    'Baldy Hall': ['Lockwood Memorial Library'],
+    'Clemens Hall': ['Lockwood Memorial Library', 'Baird Hall'],
+    'Baird Hall': ['Clemens Hall', 'Slee Hall'],
+    'Slee Hall': ['Baird Hall'],
+    'Bell Hall': ['Student Union', 'Furnas Hall'],
+    'Furnas Hall': ['Bell Hall', 'Jarvis Hall'],
+    'Jarvis Hall': ['Furnas Hall'], 
+    'Capen Hall': ['Norton Hall', 'Talbert Hall', 'Knox Hall' , 'OBrian Hall'],
+    'OBrian Hall': ['Capen Hall', 'Baldy Hall', 'Lockwood Memorial Library']
+}
